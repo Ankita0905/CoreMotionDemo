@@ -13,6 +13,8 @@
 		E06912B423D7A7A30055CAFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06912B223D7A7A30055CAFD /* Main.storyboard */; };
 		E06912B623D7A7A40055CAFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06912B523D7A7A40055CAFD /* Assets.xcassets */; };
 		E06912B923D7A7A40055CAFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06912B723D7A7A40055CAFD /* LaunchScreen.storyboard */; };
+		E06912C123D7A7D80055CAFD /* XYZViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06912C023D7A7D80055CAFD /* XYZViewController.swift */; };
+		E06912C323D7A7FE0055CAFD /* nature-3082832__340.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06912C223D7A7FE0055CAFD /* nature-3082832__340.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E06912B523D7A7A40055CAFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E06912B823D7A7A40055CAFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E06912BA23D7A7A40055CAFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06912C023D7A7D80055CAFD /* XYZViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZViewController.swift; sourceTree = "<group>"; };
+		E06912C223D7A7FE0055CAFD /* nature-3082832__340.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nature-3082832__340.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				E06912AE23D7A7A30055CAFD /* SceneDelegate.swift */,
 				E06912B023D7A7A30055CAFD /* ViewController.swift */,
 				E06912B223D7A7A30055CAFD /* Main.storyboard */,
+				E06912C223D7A7FE0055CAFD /* nature-3082832__340.jpg */,
 				E06912B523D7A7A40055CAFD /* Assets.xcassets */,
 				E06912B723D7A7A40055CAFD /* LaunchScreen.storyboard */,
 				E06912BA23D7A7A40055CAFD /* Info.plist */,
+				E06912C023D7A7D80055CAFD /* XYZViewController.swift */,
 			);
 			path = CoreMotionDemo;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E06912B923D7A7A40055CAFD /* LaunchScreen.storyboard in Resources */,
+				E06912C323D7A7FE0055CAFD /* nature-3082832__340.jpg in Resources */,
 				E06912B623D7A7A40055CAFD /* Assets.xcassets in Resources */,
 				E06912B423D7A7A30055CAFD /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E06912C123D7A7D80055CAFD /* XYZViewController.swift in Sources */,
 				E06912B123D7A7A30055CAFD /* ViewController.swift in Sources */,
 				E06912AD23D7A7A30055CAFD /* AppDelegate.swift in Sources */,
 				E06912AF23D7A7A30055CAFD /* SceneDelegate.swift in Sources */,
